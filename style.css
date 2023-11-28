@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Ruda&display=swap');
+
+body {
+    background-color: black !important;
+    color: white !important;
+    font-family: 'Ruda', sans-serif;
+}
+
+nav {
+    margin-inline: 20px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-inline: 20px;
+    font-weight: 400;
+}
+
+#name {
+    font-weight: 700;
+    font-size: 29px;
+    letter-spacing: 6%;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.hero {
+  
+    background-repeat: no-repeat;
+    height: 900px;
+    padding: 100px;    
+    background-position: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(39, 39, 39, 0.05) 0.01%, rgba(31, 31, 31, 0.0529908) 0.02%, rgba(0, 0, 0, 0.065) 13.02%, rgba(0, 0, 0, 0.5) 100%),url('./hero.svg');
+    background-size: cover;
+
+}
+
+.hero-1 {
+    position: relative;
+    font-size: 101px;
+    font-weight: 800;
+    color: #FFFFFF;
+    ;
+    line-height: 108.5px;
+    letter-spacing: 9%;
+    width: 50%;
+    font-family: 'Quattrocento', serif;
+}
+
+.hero-2 {
+    position: relative;
+    width: 500px;
+    height: 13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(242, 76, 76);
+}
+
+.hero-3 {
+    width: 35%;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 9%;
+}
+
+.about {
+    font-family: 'Quattrocento', serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#about {
+    margin-bottom: 55px;
+}
+
+.line {
+    width: 526px;
+    background-color: rgb(242, 76, 76);
+    height: 10px;
+
+}
+
+#contain {
+    display: flex;
+    margin-inline: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    width: 85%;
+
+
+}
+
+.image>img {
+    width: 579px;
+    ;
+    height: 506px;
+    border-radius: 10px;
+}
+
+#menu>.para>p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    margin-inline: 100px;
+
+}
+
+.desc>p {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+
+}
+
+.flex-for-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hori {
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.vert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vert>div {
+    margin-inline: 15px;
+}
+
+.desc>p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+}
+
+.desc>h1 {
+    color: #F2C94C;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.arrow>img
+{
+    width: 114px;
+    height: 114px;
+
+    padding: 28.5px, 0px, 28.5px, 0px;
+}
+.cimg>img
+{
+width: 97%;
+height: 638px;
+border-radius: 10px;
+margin-inline: 20px;
+margin-top: 0px;
+}
+
+.elli
+{
+    width: 18px;
+    height: 18px;
+    background-color:  rgb(76, 76, 76);
+    border-radius: 50%; 
+    margin-inline: 5px; 
+}
+.sam
+{
+    background-color: white !important;
+}
+
+
+.cnt3>img
+{
+    width: 274px;
+    height: 200px;
+    border-radius: 10px;
+    margin-inline: 10px;
+    margin-bottom: 8px;
+}
+.cnt2>img
+{
+width: 274px;
+height: 302px;
+border-radius: 10x;
+height: 50%;
+margin-bottom: 10px;
+
+}
+
+#address{
+   margin:30px;
+   margin-inline-start: 100px;
+}
+
+#address  .text
+{
+    margin-inline-end: 20px;
+    
+    width: 630px;
+    height: 181px;
+
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+text-align: left;
+
+}
+    
+footer{
+        margin-top: 100px;      
+  
+}
+
+footer>div{
+    margin-inline:30px;
+}
+
+footer>img{
+    width: 202.79px;
+height: 148.96px;
+
+
+}
+
+
+
+
